@@ -1,18 +1,19 @@
-const divide= (num1, num2) => {
-    console.log (num1 / num2);
-    return 20;
-}
-doMath(2000,100)
 
+
+// Function expression called divide
+const divide = function() {
+  return 2000 / 100;
+}
+
+// Arrow function called square
 const square = (num) => {
-        return num * num;
+  return num * num;
 }
- doMath(2,2)
-  
-const add = (a,b) => a + b;
-  add(3,4); //=> 7
 
-
+// Arrow function called add
+const add = (num1, num2) => {
+  return num1 + num2;
+}
 
   
 
